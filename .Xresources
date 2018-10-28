@@ -1,0 +1,11 @@
+xrdb -merge ~/.Xresources
+Xft.dpi: 144
+
+URxvt.depth:                     32
+URxvt.foreground:                #88ff88
+URxvt.color12:                   rgb:7c/7c/ff
+URxvt.font:                      xft:Source Code Pro:Regular:size=10:antialias=true
+URxvt.boldFont:                  xft:Source Code Pro:Bold:size=10:antialias=true
+URxvt.cursorColor:               magenta
+urxvt*background:                rgba:0000/0000/0200/A000
+URxvt.scrollBar:                 false
