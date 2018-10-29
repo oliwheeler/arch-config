@@ -1,5 +1,7 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 
+XKEYBOARD="00-keyboard.conf"
+KEYBOARD="vconsole.conf"
 
 BASHPROFILE=".bash_profile"
 BASHRC='.bashrc'
@@ -17,3 +19,6 @@ do
 done
 
 ln -sf ${DIR}/i3 ~/.config/i3
+
+sudo ln -sf ${DIR}/${XKEYBOARD} /etc/X11/xorg.conf.d/${XKEYBOARD}
+sudo ln -sf ${DIR}/${KEYBOARD} /etc/${KEYBOARD}
