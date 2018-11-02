@@ -13,3 +13,7 @@ alias ll='ls -al'
 PS1='[\u@\h \W]\$ '
 
 neofetch
+
+export PATH=$PATH:/home/olwheele/bin
+
+source '/home/olwheele/lib/azure-cli/az.completion'
