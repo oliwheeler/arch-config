@@ -6,7 +6,6 @@
 [[ $- != *i* ]] && return
 
 alias sudo='sudo '
-alias az='azure-cli '
 alias vim='nvim'
 alias ls='ls --color=auto'
 alias l='ls'
