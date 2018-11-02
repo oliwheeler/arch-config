@@ -9,9 +9,10 @@ PROFILE='.profile'
 XPROFILE='.xprofile'
 XINITRC='.xinitrc'
 XRESOURCES='.Xresources'
+XSESSIONRC='.xsessionrc'
 
 
-FILES=( "$BASHPROFILE" "$BASHRC" "$PROFILE" "$XPROFILE" "$XINITRC" "$XRESOURCES" )
+FILES=( "$BASHPROFILE" "$BASHRC" "$PROFILE" "$XPROFILE" "$XINITRC" "$XRESOURCES" "$XSESSIONRC" )
 
 for f in "${FILES[@]}"
 do
