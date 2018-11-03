@@ -1,2 +1,0 @@
-xinput set-prop "Microsoft Surface Keyboard Touchpad" "libinput Tapping Enabled" 1
-xinput set-prop "Microsoft Surface Keyboard Touchpad" "libinput Natural Scrolling Enabled"
