@@ -142,7 +142,7 @@ bindsym $mod+Shift+0 move container to workspace 10
 assign [class="Firefox"] $workspace1
 assign [class="Chromium"] $workspace2
 assign [class="URxvt"] $workspace3
-assign [class="Code"] $workspace4
+assign [class="code-oss"] $workspace4
 assign [class="Postman"] $workspace5
 
 # reload the configuration file
