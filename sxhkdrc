@@ -1,0 +1,13 @@
+XF86Audio{LowerVolume,RaiseVolume}
+	pactl set-sink-volume 0 {-,+}5%
+
+XF86AudioMute
+	pactl set-sink-mute 0 toggle
+
+XF86MonBrightness{Down,Up}
+	light {-U,-A} 2
+
+super + x
+	slock
+	
+
